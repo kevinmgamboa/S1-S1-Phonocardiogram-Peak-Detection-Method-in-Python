@@ -1,7 +1,7 @@
 ##----------------------------------------------------------------------------
 ## LYBRARIES:
 ##----------------------------------------------------------------------------
-# C:\Users\Privado\Desktop\Kevin\HR Detection Project
+# # Kevin Machado Gamboa/ Universidad Autonoma de Occidente/Cali/ Colombia
 # Numpy Tutorial http://cs231n.github.io/python-numpy-tutorial/#numpy
 import scipy.io as sio
 import numpy as np
@@ -87,7 +87,7 @@ def FpassBand(X,hp,lp):
 ## Ref:http://www.med.umich.edu/lrc/psb_open/html/repo/primer_heartsound/primer_heartsound.html
 ## and Filter made by FDA tools from matlab
 
-datos=sio.loadmat('mDatabase');
+datos=sio.loadmat('mdatabase');
 filtros=sio.loadmat('Filters1');
 ## Getting access to variables into 'newSound1' & 'Filters1'
 X=datos['x1'];X=X[0];		                # Phonocardigram signal	
